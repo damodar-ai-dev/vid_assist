@@ -33,6 +33,7 @@ if api_key and openai_api_key and video_file:
         st.error("File processing failed")
         st.stop()
 
+    
     st.success("File processing done")
 
     # Transcription
